@@ -18,7 +18,7 @@ if [ $id -ne 0 ]; then
 fi
 
 read -p "Installing dependencies"
-sudo apt-get install -y git g++ cmake libsqlite3-dev  libi2c-dev libusb-1.0-0-dev libwxgtk3.0-dev freeglut3-dev libboost-all-dev swig liblog4cpp5-dev build-essential libtool libtalloc-dev shtool autoconf automake git-core pkg-config make gcc libpcsclite-dev gnutls-bin gnutls-dev python
+sudo apt-get install -y git g++ cmake libsqlite3-dev libfftw3-dev libi2c-dev libusb-1.0-0-dev libwxgtk3.0-dev freeglut3-dev libboost-all-dev swig liblog4cpp5-dev build-essential libtool libtalloc-dev shtool autoconf automake git-core pkg-config make gcc libpcsclite-dev gnutls-bin gnutls-dev python
 
 read -p "Installing LimeSuite"
 echo Installing LimeSuite
