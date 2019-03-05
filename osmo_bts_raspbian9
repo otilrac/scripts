@@ -75,5 +75,8 @@ echo "deb http://download.opensuse.org/repositories/network:/osmocom:/latest/Ras
 apt-get update
 
 apt-get install osmocom-nitb osmo-bts-trx
-
+systenctl stop osmocom-nitb
+systenctl stop osmo-bts-trx
+systenctl disable osmocom-nitb
+systenctl disable osmo-bts-trx
 chmod +x start_bts.sh
