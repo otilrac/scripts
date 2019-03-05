@@ -79,4 +79,5 @@ systenctl stop osmocom-nitb
 systenctl stop osmo-bts-trx
 systenctl disable osmocom-nitb
 systenctl disable osmo-bts-trx
+cd Scripts
 chmod +x start_bts.sh
